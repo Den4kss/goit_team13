@@ -1,0 +1,110 @@
+.swiper-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 1200px;
+    background: #fff;
+  }
+  
+  .person {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+  
+  .feedback-box {
+    max-width: 968px;
+    padding: 32px 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  
+    background: #fafafa;
+  }
+
+  .icon-quotes {
+    position: relative;
+    left: 15px;
+    fill: #e1e1e1;
+    z-index: 0;
+  }
+  
+  .blockquote {
+    font-family: DM Sans serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.86;
+    text-align: center;
+    letter-spacing: 0.04em;
+  
+    color: #000000;
+  }
+  
+  .dots {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 16px;
+    gap: 10px;
+  }
+  
+  .dot,
+  .dot:before,
+  .dot:after {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #c7133e;
+  }
+  
+  .dot {
+    // top: 50%;
+    left: 50%;
+  }
+  
+  .dot:before,
+  .dot:after {
+    content: '';
+  }
+  
+  .dot:before {
+    right: 10px;
+  }
+  
+  .dot:after {
+    left: 10px;
+  }
+  .dots:hover .dot:before {
+    right: -10px;
+  }
+  
+  .dots:hover .dot:after {
+    left: -10px;
+  }
+  
+  .name {
+    margin-bottom: 32px;
+  }
+  
+  .feedback-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    left: 50%;
+  
+    margin-bottom: 120px;
+  }
+  
+  .fb-link {
+    fill: #d9d9d9;
+  }
+  
+  .fb-link__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+  }
+  
