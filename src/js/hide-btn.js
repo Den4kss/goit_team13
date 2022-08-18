@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
 let headerDiscrBtn = document.querySelector(".headerDiscrBtn");
 let headerDiscr = document.querySelector(".headerDiscr");
 // Event 
